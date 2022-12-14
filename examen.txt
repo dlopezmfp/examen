@@ -1,0 +1,50 @@
+/**
+ * Ejercicio 1
+
+ - Crea un archivo html5 llamado ejercicio1.html
+ - Crea un archivo javascript llamado ejercicio1.js
+
+    En el archivo ejercicio1.js implementa un ejemplo en Javascript donde:
+
+- Se compare un objeto con su copia mediante el rest operator demostrando que es una shallow copy
+- Se compare un array con su copia mediante el spread operator rest o medianto un método demostrando que es una shallow copy
+
+ Ejercicio 2
+
+ - Crea un archivo html5 con un párrafo con una frase dentro que diga "Hola me van a ocultar".
+ -Debajo coloca un enlace o un botón donde se pueda leer "Ocultar"
+ - Crea un archivo Javascritp llamado "ejercicio2.js" que permita hacer lo siguiente:
+    ·Al hacer click sobre el enlace o botón se ha de ocultar la frase colocada encima. No hace falta que al hacer click se vuelva a mostrar.
+
+ Ejercicio 3
+
+ - Crea un archivo html5 con una lista sin ordenar con los nombres de 5 equipos de fútbol. FC Barcelona no podrá estar incluído entre los 5
+ - Crea un archivo javascript llamado ejercicio3.js
+ - Implementa código javascript para que se almacenen los nombres de los equipos de fútbol en un array
+ - A partir de ese array crea un objeto donde el nombre de la propiedad será la cadena de caracteres "equipo" concatenado con el
+    orden que ocupa en el array
+ - Crea una lista ordenada mediante la creación de DOM dinámico sin usar template ni crear etiquetas mediante innerHTML donde cada
+    elemento de la lista será el valor de cada propiedad del objeto
+
+ - Aclaraciones:
+
+    · NO SE PODRÁN USAR BUCLES CLÁSICOS. SE VALORARÁ POSITIVAMENTE EL HECHO DE NO USAR VARIABLES CONTADORAS.
+    · EL ORDEN DE LOS EQUIPOS EN LA LISTA ORDENADA DEL HTML NO TENDRÁ POR QUÉ SER EL MISMO QUE ORIGINALMENTE TENÍAN EN EL ARRAY
+
+ Ejemplo:
+
+  equipos["Espeleño", "Córdoba F.C.", "Tottenham", "Esteagua es de Lanjarón", "West Jamon"]
+
+  recorremos el array mediante el bycle correspondiente y creamos el siguiente objeto:
+
+ equiposObjeto{
+    equipo1: "Espeleño F.C."
+    equipo2: "Córdoba F.C."
+    equipo3: "Tottenham"
+    equipo4: "Esteagua es de Lanjarón"
+    equipo5: "West Jamon"
+ }
+
+ recorremos el objeto y creamos la lista ordenada.
+
+*/
